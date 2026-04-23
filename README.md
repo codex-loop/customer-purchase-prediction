@@ -1,2 +1,95 @@
-# customer-purchase-prediction
-An end-to-end machine learning project that predicts customer purchase intent, helping businesses target high-value customers and optimize marketing strategies.
+# Customer Purchase Prediction
+
+## **Problem Statement**
+
+Businesses often spend heavily on marketing campaigns with low conversion rates. This project aims to predict whether a customer will make a purchase, enabling better targeting and improved ROI.
+
+---
+
+## **Objective**
+
+* Predict customer purchase behavior (Yes/No)
+* Improve marketing efficiency
+* Identify high-intent customers
+
+---
+
+## **Dataset Features**
+
+* Age
+* Gender
+* Annual Income
+* Number of Purchases
+* Product Category
+* Time Spent on Website
+* Loyalty Program
+* Discounts Availed
+
+---
+
+## **Approach**
+
+* Data preprocessing and cleaning
+* Exploratory Data Analysis (EDA)
+* Feature engineering (Customer Value, Engagement Score, etc.)
+* Model building:
+
+  * Logistic Regression
+  * Decision Tree
+  * Random Forest
+* Model evaluation using Accuracy, Precision, Recall, F1 Score, AUC
+
+---
+
+## **Results**
+
+* Random Forest performed best
+* Balanced precision and recall
+* Strong AUC score indicating good classification ability
+
+---
+
+## **Visualizations**
+
+### **Purchase Distribution**
+
+![Purchase Distribution](images/purchase_distribution.png)
+
+### **Confusion Matrix**
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+### **Feature Importance**
+
+![Feature Importance](images/feature_importance.png)
+
+---
+
+## **Business Recommendations**
+
+* Target high-income and high-engagement users
+* Focus on loyal customers
+* Reduce marketing spend on low-probability users
+
+---
+
+## **Future Improvements**
+
+* Hyperparameter tuning
+* Deployment using Flask / Streamlit
+* Real-time prediction system
+
+---
+
+## **Tech Stack**
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* Matplotlib, Seaborn
+
+---
+
+## **Conclusion**
+
+This project demonstrates how machine learning can be used to improve marketing strategies and increase conversion rates through data-driven insights.
