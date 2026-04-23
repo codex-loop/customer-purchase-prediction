@@ -53,15 +53,14 @@ Businesses often spend heavily on marketing campaigns with low conversion rates.
 
 ### **Purchase Distribution**
 
-![Purchase Distribution](images/purchase_distribution.png)
+![Purchase Distribution]
 
 ### **Confusion Matrix**
 
-![Confusion Matrix](images/confusion_matrix.png)
-
+![Confusion Matrix]
 ### **Feature Importance**
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance]
 
 ---
 
